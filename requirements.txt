@@ -1,9 +1,8 @@
-
-setuptools==65.0.0
+setuptools>=65.0.0
 jupyter==1.0.0
 ipywidgets==8.0.0
-nbformat==4.2.0
-numpy <=1.24.0
+nbformat>=5.5.0           # بدلاً من 4.2.0
+numpy==1.24.4             # آخر نسخة 1.24 قبل 1.25
 pandas==2.0.0
 scikit-learn==1.3.0
 xgboost==2.0.0
